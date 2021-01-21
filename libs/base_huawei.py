@@ -740,9 +740,9 @@ class BaseHuaWei(BaseClient):
 
             await page.click('#add-adds')
             await asyncio.sleep(1)
-            await page.type('#add-receive-name', '邹华')
-            await page.type('#add-receive-phone', '18664845253')
-            await page.type('#add-receive-area-info', '静安路6号55创意产业园3楼')
+            await page.type('#add-receive-name', '梅超')
+            await page.type('#add-receive-phone', '18130269611')
+            await page.type('#add-receive-area-info', '杭州市西湖区春森俪湾2幢1304')
             await page.click('#add-info .devui-checkbox')
             await page.click('#ifDefault .devui-toggle')
 
